@@ -7,14 +7,14 @@
     background-image: linear-gradient(lightblue);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 90%;
-    margin-top:25px;
-    margin-bottom:25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 50px;
-    margin-right:50px;
+    margin-right: 50px;
     text-align: justify;
     word-spacing: 7px;
     background-repeat: no-repeat;
-    background-position:right bottom;
+    background-position: right bottom;
     background-size: cover;
   }
 
@@ -27,15 +27,54 @@
     font-size: large;
     color: rgb(44, 41, 39);
   }
+.bien{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("bien.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 0px;
+}
+.mal{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("mal.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 0px;
+}
+.chat{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-image: url("chat.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 0px;
+}
 
-  table,
+  table {
+    background-color: white;
+    border-collapse: collapse;
+    margin: auto;
+    margin-right: auto;
+  }
+li{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  text-align-last: justify;
+}
   th,
   td {
-    border: 1px solid #FF0000;
     border-collapse: collapse;
-    padding: 1px;
-    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid black;
+  }
 
+  tr:nth-child(even) {
+    background-color: lightgray;
   }
 
   q {
@@ -60,13 +99,15 @@
   .flex {
     display: flex;
   }
-
+caption{
+  font-size: 20px;
+  padding-bottom: 7px;
+}
   .bold {
     justify-content: flex-end;
     flex-wrap: wrap;
     font-weight: 200;
     font-weight: bold;
-
   }
 
   .quote1 {
@@ -74,11 +115,10 @@
     font-size: medium;
     border-left: 3px firebrick;
     font-size: 160%;
-    margin-top:25px;
-    margin-bottom:55px;
+    margin-top: 25px;
+    margin-bottom: 55px;
     margin-left: 50px;
-    margin-right:50px;
-
+    margin-right: 50px;
   }
 
   a:active,
