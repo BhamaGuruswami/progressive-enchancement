@@ -1,70 +1,109 @@
-  header{
-      background-color: yellow;
+  header {
+    background-color: yellow;
+    text-indent: 550px;
   }
 
   body {
-    background-color: rgb(231, 216, 216);
+    background-image: linear-gradient(lightblue);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 90%;
-    margin: auto;
     max-width: 90%;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left: 50px;
+    margin-right:50px;
     text-align: justify;
     word-spacing: 7px;
-}
-h1{ 
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: cover;
+  }
+
+  h1 {
     color: rgb(139, 36, 36);
-}
-p{
+  }
+
+  p {
     font-family: serif;
     font-size: large;
     color: rgb(44, 41, 39);
-}
-q {
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid #FF0000;
+    border-collapse: collapse;
+    padding: 1px;
+    background-color: whitesmoke;
+
+  }
+
+  q {
     margin: middle;
-    background-color: darkgrey;  
-}
-.good {
+    background-color: darkgrey;
+  }
+
+  .good {
     text-transform: capitalize;
     color: green;
-}
-.bad{
+  }
+
+  .bad {
     color: red;
     text-transform: capitalize;
-}
+  }
 
-article{
+  article {
     position: relative;
-}
-.flex{
+  }
+
+  .flex {
     display: flex;
-}
-.bold{
+  }
+
+  .bold {
     justify-content: flex-end;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     font-weight: 200;
     font-weight: bold;
 
-}
-.quote1{
+  }
+
+  .quote1 {
     background-color: rgb(201, 194, 194);
     font-size: medium;
     border-left: 3px firebrick;
     font-size: 160%;
-}
-media screen and (max-width: 300px) {
-    body {
-      background-color: rgb(158, 7, 7);
+    margin-top:25px;
+    margin-bottom:55px;
+    margin-left: 50px;
+    margin-right:50px;
 
+  }
+
+  a:active,
+  a:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width:300px) {
+    body {
+      background-color: red;
+      width: 100%;
     }
-    }
-  
-  @media  screen and (min-width: 301px) and (max-width: 767px) and (orientation : landscape) {
+  }
+
+  @media screen and (max-width: 767px) and (orientation : landscape) {
     body {
       background-color: lightgreen;
     }
   }
-  @media  screen and (min-width: 768px) {
+
+  @media screen and (min-width: 768px) {
     body {
-      background-color: lightblue;
+      background-color: rgb(139, 217, 243);
     }
   }
