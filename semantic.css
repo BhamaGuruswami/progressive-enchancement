@@ -80,6 +80,7 @@ li{
   q {
     margin: middle;
     background-color: darkgrey;
+    font-style: italic;
   }
 
   .good {
@@ -103,11 +104,15 @@ caption{
   font-size: 20px;
   padding-bottom: 7px;
 }
+figcaption{
+  font-size: 20px;
+}
   .bold {
     justify-content: flex-end;
     flex-wrap: wrap;
     font-weight: 200;
     font-weight: bold;
+    padding-left: 25px;
   }
 
   .quote1 {
